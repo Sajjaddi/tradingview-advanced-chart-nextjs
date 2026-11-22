@@ -51,19 +51,19 @@ export const disabledFeatures: ChartingLibraryFeatureset[] = [
   "header_compare",
   "display_market_status",
   "show_interval_dialog_on_key_press",
-  "header_symbol_search",
   "header_quick_search",
   "popup_hints",
-  // "use_localstorage_for_settings",
-  // "right_bar_stays_on_scroll",
-  // "symbol_info",
+  // Disable remote storage endpoints when no backend chart server is running
+  "header_saveload",
+  "study_templates",
 ];
+
 export const enabledFeatures: ChartingLibraryFeatureset[] = [
-  "side_toolbar_in_fullscreen_mode",
   "side_toolbar_in_fullscreen_mode",
   "header_in_fullscreen_mode",
   "items_favoriting",
-  "study_templates",
+  // Save chart indicators and drawings locally in browser localStorage
+  "use_localstorage_for_settings",
   "study_symbol_ticker_description",
   "study_overlay_compare_legend_option",
   "go_to_date",

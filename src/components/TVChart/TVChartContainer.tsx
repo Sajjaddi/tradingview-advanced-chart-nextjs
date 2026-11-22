@@ -56,8 +56,6 @@ export const TVChartContainer = ({
       },
       enabled_features: enabledFeatures,
       disabled_features: disabledFeatures,
-      client_id: "tradingview.com",
-      user_id: "public_user_id",
       fullscreen: false,
       autosize: true,
       custom_css_url: "/tradingview-chart.css",
